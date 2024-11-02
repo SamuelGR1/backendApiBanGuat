@@ -27,8 +27,8 @@ mvn clean install
 1. Abre MySQL y crea una base de datos con el siguiente nombre:
 
    ```sql
-   CREATE DATABASE tipocambio2db;
-   USE tipocambio2db;
+   CREATE DATABASE practica2db;
+   USE practica2db;
    CREATE TABLE solicitudes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     tipo_cambio VARCHAR(1000),
@@ -37,10 +37,16 @@ mvn clean install
 
 ## Configura las credenciales en el archivo src/main/resources/application.properties
 
-spring.datasource.url=jdbc:mysql://localhost:3306/tipocambio2db
+
+spring.datasource.url=jdbc:mysql://localhost:3306/practica2db
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
 spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialec
+
 
 ## Ejecuta 
 mvn spring-boot:run
