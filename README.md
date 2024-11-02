@@ -6,14 +6,15 @@ Este proyecto es una aplicación en **Spring Boot** creada en **Java** con **Mav
 
 Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes herramientas:
 
-- **Java Development Kit (JDK) 17** o superior
-- **Apache Maven**
+- **Java Development Kit (JDK) 17** 
 - **MySQL** (o el sistema de bases de datos que estés usando)
 - **NetBeans IDE** (opcional, si deseas ejecutarlo en este entorno)
 
 ## Clona el repositorio en tu máquina local:
 
 https://github.com/SamuelGR1/backendApiBanGuat.git
+
+## DEBES ENTRAR A LA CARPETA CLONADA
 cd ParcialPractico
 
 ## Compila el proyecto con Maven:
